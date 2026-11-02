@@ -1,1 +1,27 @@
-/* Shared styles for University Clubs Portal */
+/* ===== Clubs Page (Member 1) ===== */
+.clubs-intro {
+  margin-bottom: 20px;
+}
+
+.clubs-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.club-card {
+  background: #f5f7fa;
+  border: 1px solid #d0d7de;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.club-card h3 {
+  margin-bottom: 8px;
+}
+
+@media (max-width: 600px) {
+  .clubs-grid {
+    grid-template-columns: 1fr;
+  }
+}/* Shared styles for University Clubs Portal */
