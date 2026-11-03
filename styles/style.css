@@ -99,8 +99,18 @@
   margin-bottom: 12px;
 }
 
+.events-register-note {
+  margin-top: 30px;
+  padding: 15px;
+  background: #f6f8fa;
+  border: 1px solid #d0d7de;
+  border-radius: 6px;
+  text-align: center;
+}
+
 @media (max-width: 600px) {
   .events-grid {
     grid-template-columns: 1fr;
   }
 }
+
