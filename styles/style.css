@@ -114,3 +114,27 @@
   }
 }
 
+/* ===== Home Page (Team Lead) ===== */
+.hero {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.home-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.home-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+@media (max-width: 768px) {
+  .home-grid {
+    grid-template-columns: 1fr;
+  }
+}
