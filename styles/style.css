@@ -62,3 +62,45 @@
   }
 }
 
+/* ===== Events Page (Member 2) ===== */
+.events-intro {
+  margin-bottom: 20px;
+}
+
+.events-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.event-card {
+  background: #ffffff;
+  border: 1px solid #d0d7de;
+  border-left: 5px solid #2da44e;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.event-card h3 {
+  margin-top: 0;
+  margin-bottom: 6px;
+}
+
+.event-club {
+  display: inline-block;
+  font-weight: bold;
+  color: #0969da;
+  margin-bottom: 8px;
+}
+
+.event-meta {
+  font-size: 0.9em;
+  color: #57606a;
+  margin-bottom: 12px;
+}
+
+@media (max-width: 600px) {
+  .events-grid {
+    grid-template-columns: 1fr;
+  }
+}
